@@ -7,7 +7,7 @@ def time_period(duration, interval):
 
 	for i in range(duration // interval):
 		print(i)
-		time.sleep(1)
+		time.sleep(interval)
 
 	print("*** End ***\a\a\a")
 
